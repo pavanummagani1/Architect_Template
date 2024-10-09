@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, serif;
+}
+header{
+    margin: 20px 30px;
+}
+.section{
+    display: inline-block;
+    font-weight: 500;
+}
+.hover:hover{
+    background-color: #b9cbb9de;
+    padding: 10px;
+}
+.logo{
+    font-weight: 900;
+}
+.item1{
+    margin: 0px 0px 0px 800px;
+}
+.item1, .item2 , .item3{
+    margin-right: 15px;
+}
+/*Banner section*/
+.bannerSection{
+    background-image: url(./images/architect.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.bannerlogo{
+    background-color: #242323;
+    padding: 12px;
+    opacity: 0.9;
+}
+.bannertitle{
+    color: white;
+    text-align: center;
+}
+
+/*Projects*/
+main{
+    margin: 0px 20px;
+}
+.sectionTitle{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.horizontalrule{
+    opacity: 0.2;
+}
+
+/*houses*/
+.houses{
+    margin: 30px 30px 50px 30px;
+
+}
+section{
+    display: inline-block;
+    width: 270px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
+}
+
+/* AboutUs */
+.aboutus{
+    margin: 16px;
+    font-weight: 200;
+    text-align: justify;
+}
+h3{
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+}
+.role{
+    margin-bottom: 12px;
+    opacity: 0.5;
+}
+p{
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.formcontainer{
+    margin-bottom: 40px;
+}
+.formInput{
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.submitbutton{
+    background-color: #000000;
+    padding: 10px;
+    color: #ffffff;
+    border: 2px solid #000000;
+    width: 15%;
+}
+.map{
+    /* height: 80%; */
+    width: 100%;
+}
+.footer{
+    height: 80px;
+    background-color: #000000;
+}
+.footerpara{
+    color: #ffffff;
+    text-align: center;
+    padding: 35px;
+}
+.link{
+    color: #ffffff;
+}
